@@ -75,6 +75,13 @@ main img {
   margin-left: 10px;
 }
 
+#host img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
 /* -------  Navigation ------- */
 
 header {
