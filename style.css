@@ -64,7 +64,7 @@ header {
   color: #fff;
 }
 
-header nav ul {
+header nav ul { /* Horizontally align nav options */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -94,12 +94,20 @@ form {
 
 form label {
   font-weight: bold;
+  position: absolute; /* Establish label position to the left edge of form */
+  margin-left: 1em;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  height: 25px;
+  margin-left: 8em; /* Allows input fields to align vertically */
+}
+
+#type {
+  width: 185px; /* Drop down list needs width expansion */
 }
 
 form button {
