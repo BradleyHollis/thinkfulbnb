@@ -52,10 +52,10 @@ main img {
 
 .group img { /* Aligns images for About section in mobile view */
   display: block;
-  width: 300px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
-  margin: 10px;
+  padding-bottom: 20px;
 }
 
 .idea_col {
@@ -65,14 +65,9 @@ main img {
 
 .idea_col img {
   display: block;
-  width: 300px;
   margin-right: auto;
   margin-left: auto;
-  margin: 10px;
-}
-
-.idea_col h3 {
-  margin-left: 10px;
+  width: 100%;
 }
 
 #host img {
