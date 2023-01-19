@@ -58,6 +58,23 @@ main img {
   margin: 10px;
 }
 
+.idea_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.idea_col img {
+  display: block;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 10px;
+}
+
+.idea_col h3 {
+  margin-left: 10px;
+}
+
 /* -------  Navigation ------- */
 
 header {
