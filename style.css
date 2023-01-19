@@ -50,6 +50,14 @@ main img {
   flex: 2;
 }
 
+.group img { /* Aligns images for About section in mobile view */
+  display: block;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 10px;
+}
+
 /* -------  Navigation ------- */
 
 header {
