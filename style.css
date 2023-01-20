@@ -159,3 +159,35 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 480px) {
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .logo {
+    font-family: "Pangolin", cursive;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header nav ul li{
+    margin-top: -10px
+  }
+
+  form{
+    display: flex;
+    flex-direction: row;
+  }
+  
+}
